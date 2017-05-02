@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+/*// Variables
+@import "variables";*/
+
+@import "node_modules/font-awesome/css/font-awesome";
+@import "node_modules/bulma/sass/utilities/initial-variables";
+
+@import 'node_modules/bulma/css/bulma';
+
+@import "overrides";
+@import "office-item";
+@import "office-detail";
+@import "buttons";
+@import "facts";
+
+.list li{
+	padding:5px;
+}
+
+.pr-5{
+	padding-right:5px;
+}

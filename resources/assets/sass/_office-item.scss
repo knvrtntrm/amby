@@ -1,0 +1,41 @@
+.office-items{
+	margin: 20px;
+}
+
+.office-item{
+	min-width: 50%;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding:20px;
+	float:left;
+}
+
+.office-item-right{
+	margin-left:auto;
+}
+
+.office-item-title{
+	text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+}
+
+.office-item-location{
+	opacity: 0.2;
+    width: 50px;
+}
+
+@media(max-width:768px){
+	.office-item{
+		width: 100%;
+		flex-direction: column;
+		align-items: flex-start;
+		border-bottom:1px solid #eee;
+	}
+
+	.office-item-right{
+		margin-top:20px;
+	}
+}

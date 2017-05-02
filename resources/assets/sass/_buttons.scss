@@ -1,0 +1,13 @@
+.button-red{
+	background-color:white;
+	color:$red;
+	border:1px solid $red;
+	font-weight: 600;
+	box-shadow: none;
+}
+
+.button-red:hover{
+	background-color:$red;
+	color:white;
+	border:1px solid $red;
+}

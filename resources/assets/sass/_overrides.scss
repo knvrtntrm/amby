@@ -1,0 +1,60 @@
+/* COLORS */
+
+$red: #c54613;
+$primary: $red;
+
+a{
+	color:$red;
+}
+
+.is-danger{
+	color:$red!important;
+}
+
+.is-red{
+	color:$red;
+}
+
+.has-gray-background{
+	background-color:#eee;
+	padding:20px;
+}
+
+.p-50{
+	padding:50px;
+}
+
+.pb-20{
+	padding-bottom:20px;
+}
+
+/* FONT */
+
+body{
+	font-family: 'Quicksand', sans-serif;
+}
+
+body,html, #app{
+	height:100%;
+}
+
+.clearfix{
+	clear:both;
+}
+
+
+/* NAVIGATION */
+
+.nav{
+	height:6.25em;
+}
+
+.nav-item img{
+	max-height:3.75rem;
+	width:100%;
+}
+
+/* INPUT */
+input:hover, input:active, input:focus, textarea:hover, textarea:focus, textarea:active{
+	border-color:$red!important;
+}
