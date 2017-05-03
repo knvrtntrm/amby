@@ -11,7 +11,8 @@
             return {
                 map: null,
                 markerA: null,
-                markerB: null
+                markerB: null,
+                markers: []
             }
         },
         created(){
@@ -19,12 +20,10 @@
                 this.createMap();
             });
             Event.$on('calculateRoute', (foreignAddress) => {
-                let directionsService = new google.maps.DirectionsService();
-                let directionsDisplay = new google.maps.DirectionsRenderer({
-                    map: this.map
+                this.map = new google.maps.Map(document.querySelector('#map'), {
+                    zoom: 14
                 });
-
-                this.showRoute(directionsService, directionsDisplay, foreignAddress);
+                this.showRoute(foreignAddress);
             });
         },
         methods: {
@@ -48,15 +47,44 @@
                     });
                 });
             },
-            showRoute(directionsService, directionsDisplay, foreignAddress){
+            showRoute(foreignAddress){
+
+                let directionsService = new google.maps.DirectionsService();
+                let directionsDisplay = new google.maps.DirectionsRenderer({
+                    map: this.map
+                });
 
                 var geocoder = new google.maps.Geocoder();
 
+                if(this.markers.length > 0){
+                    for (var i = 0; i < this.markers.length; i++) {
+                        this.markers[i].setMap(null);
+                        console.log(this.markers);
+                    }
+                    this.markers = [];
+                }
+
+                var image = {
+                    url: "/images/marker.png",
+                    size: new google.maps.Size(40, 60),
+                };
+
+                geocoder.geocode({ address: this.address }, (results, status) => {
+                this.markerA = new google.maps.Marker({
+                        icon:image,
+                        map: this.map,
+                        position: results[0].geometry.location
+                    });
+            });
+
                 geocoder.geocode({ address: foreignAddress }, (results, status) => {
+                    this.markerA 
+
                     this.markerB = new google.maps.Marker({
                         map: this.map,
                         position: results[0].geometry.location
                     });
+                    this.markers.push(this.markerB);
 
                     directionsService.route({
                         origin: this.markerB.getPosition(),
@@ -68,7 +96,7 @@
                         if (status == google.maps.DirectionsStatus.OK) {
                             directionsDisplay.setDirections(response);
                         } else {
-                            window.alert('Directions request failed due to ' + status);
+                            window.alert('Het opgegeven adres werd niet gevonden.');
                         }
                     });
                 });

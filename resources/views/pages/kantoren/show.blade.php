@@ -52,7 +52,7 @@
 			</p>
 			</div>
 			<p class="control">
-				<button class="button button-red" @click="calculateRoute">Route berekenen</button>
+				<button class="button button-red" :disabled='foreignAddress == "" || foreignAddress == null' @click="calculateRoute">Route berekenen</button>
 			</p>
 		
 	</div>

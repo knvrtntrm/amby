@@ -1623,7 +1623,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         return {
             map: null,
             markerA: null,
-            markerB: null
+            markerB: null,
+            markers: []
         };
     },
     created: function created() {
@@ -1633,12 +1634,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             _this.createMap();
         });
         Event.$on('calculateRoute', function (foreignAddress) {
-            var directionsService = new google.maps.DirectionsService();
-            var directionsDisplay = new google.maps.DirectionsRenderer({
-                map: _this.map
+            _this.map = new google.maps.Map(document.querySelector('#map'), {
+                zoom: 14
             });
-
-            _this.showRoute(directionsService, directionsDisplay, foreignAddress);
+            _this.showRoute(foreignAddress);
         });
     },
 
@@ -1665,16 +1664,45 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 });
             });
         },
-        showRoute: function showRoute(directionsService, directionsDisplay, foreignAddress) {
+        showRoute: function showRoute(foreignAddress) {
             var _this3 = this;
+
+            var directionsService = new google.maps.DirectionsService();
+            var directionsDisplay = new google.maps.DirectionsRenderer({
+                map: this.map
+            });
 
             var geocoder = new google.maps.Geocoder();
 
+            if (this.markers.length > 0) {
+                for (var i = 0; i < this.markers.length; i++) {
+                    this.markers[i].setMap(null);
+                    console.log(this.markers);
+                }
+                this.markers = [];
+            }
+
+            var image = {
+                url: "/images/marker.png",
+                size: new google.maps.Size(40, 60)
+            };
+
+            geocoder.geocode({ address: this.address }, function (results, status) {
+                _this3.markerA = new google.maps.Marker({
+                    icon: image,
+                    map: _this3.map,
+                    position: results[0].geometry.location
+                });
+            });
+
             geocoder.geocode({ address: foreignAddress }, function (results, status) {
+                _this3.markerA;
+
                 _this3.markerB = new google.maps.Marker({
                     map: _this3.map,
                     position: results[0].geometry.location
                 });
+                _this3.markers.push(_this3.markerB);
 
                 directionsService.route({
                     origin: _this3.markerB.getPosition(),
@@ -1686,7 +1714,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                     if (status == google.maps.DirectionsStatus.OK) {
                         directionsDisplay.setDirections(response);
                     } else {
-                        window.alert('Directions request failed due to ' + status);
+                        window.alert('Het opgegeven adres werd niet gevonden.');
                     }
                 });
             });
