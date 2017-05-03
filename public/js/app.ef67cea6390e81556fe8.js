@@ -1624,7 +1624,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
             map: null,
             markerA: null,
             markerB: null,
-            markers: []
+            markers: [],
+            foreignAddress: null
         };
     },
     created: function created() {
@@ -1638,6 +1639,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 zoom: 14
             });
             _this.showRoute(foreignAddress);
+        });
+        Event.$on('openInMaps', function (foreignAddress) {
+            window.open("https://www.google.com/maps/dir/" + foreignAddress + "/" + _this.address, '_blank');
         });
     },
 
@@ -41622,18 +41626,21 @@ Vue.component('office-map', __webpack_require__("./resources/assets/js/component
 Vue.component('offices-map', __webpack_require__("./resources/assets/js/components/OfficesMap.vue"));
 
 var app = window.app = new Vue({
-  el: '#app',
-  data: {
-    foreignAddress: null
-  },
-  methods: {
-    init: function init() {
-      Event.$emit('MapsApiLoaded');
+    el: '#app',
+    data: {
+        foreignAddress: null
     },
-    calculateRoute: function calculateRoute() {
-      Event.$emit('calculateRoute', this.foreignAddress);
+    methods: {
+        init: function init() {
+            Event.$emit('MapsApiLoaded');
+        },
+        calculateRoute: function calculateRoute() {
+            Event.$emit('calculateRoute', this.foreignAddress);
+        },
+        openMaps: function openMaps() {
+            Event.$emit('openInMaps', this.foreignAddress);
+        }
     }
-  }
 });
 
 /***/ }),

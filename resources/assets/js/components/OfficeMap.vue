@@ -12,7 +12,8 @@
                 map: null,
                 markerA: null,
                 markerB: null,
-                markers: []
+                markers: [],
+                foreignAddress: null
             }
         },
         created(){
@@ -24,6 +25,9 @@
                     zoom: 14
                 });
                 this.showRoute(foreignAddress);
+            });
+            Event.$on('openInMaps', (foreignAddress) => {
+                window.open("https://www.google.com/maps/dir/" + foreignAddress + "/" + this.address, '_blank');
             });
         },
         methods: {
@@ -70,12 +74,12 @@
                 };
 
                 geocoder.geocode({ address: this.address }, (results, status) => {
-                this.markerA = new google.maps.Marker({
+                    this.markerA = new google.maps.Marker({
                         icon:image,
                         map: this.map,
                         position: results[0].geometry.location
                     });
-            });
+                });
 
                 geocoder.geocode({ address: foreignAddress }, (results, status) => {
                     this.markerA 

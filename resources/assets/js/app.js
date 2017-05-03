@@ -31,6 +31,9 @@ var app = window.app = new Vue({
     	},
     	calculateRoute(){
     		Event.$emit('calculateRoute', this.foreignAddress);
-    	}
+    	},
+        openMaps(){
+            Event.$emit('openInMaps', this.foreignAddress);
+        }
     }
 });
