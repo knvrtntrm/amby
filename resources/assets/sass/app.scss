@@ -51,3 +51,14 @@
 .is-medium-text{
 	font-size:1.2em!important;
 }
+
+@media(max-width:768px){
+	.is-70-wide-and-centered{
+		width:100%;
+		margin:0 auto;
+	}
+
+	.button{
+		margin-top:10px;
+	}
+}
