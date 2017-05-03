@@ -17,6 +17,7 @@ Route::get('/diensten', 'DienstenController@index')->name('diensten');
 Route::get('/kantoren', 'KantorenController@index')->name('kantoren');
 Route::get('/kantoren/{kantoor}', 'KantorenController@show')->name('kantoren.kantoor');
 Route::get('/werken-bij-amby', 'WerkenController@index')->name('werken');
-Route::post('/kantoren/{kantoor}', 'KantorenController@store');
+Route::post('/werken-bij-amby/solliciteren', 'WerkenController@store')->name('apply');
+Route::post('/kantoren/{kantoor}', 'KantorenController@store')->name('contact');
 
 Route::post('/maps/{kantoor}/calculate', 'KantorenController@calculate');

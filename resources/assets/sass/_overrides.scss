@@ -55,6 +55,10 @@ body,html, #app{
 }
 
 /* INPUT */
-input:hover, input:active, input:focus, textarea:hover, textarea:focus, textarea:active{
+input:hover, input:active, input:focus, textarea:hover, textarea:focus, textarea:active, select:hover, select:active, select:focus{
 	border-color:$red!important;
+}
+
+input, select{
+	border-radius: 0!important;
 }

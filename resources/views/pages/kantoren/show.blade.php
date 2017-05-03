@@ -70,7 +70,7 @@
 				</article>
 				@endif
 				<h1 class="title has-text-centered pb-20">Een vraag stellen?</h1>
-				<form action="/kantoren/{{ $kantoor->slug }}" class="office-form" method="post">
+				<form action="{{ route('contact', ['kantoor' => $kantoor->slug]) }}" class="office-form" method="post">
 					{{ csrf_field() }}
 					<div class="field">
 						<p class="control">

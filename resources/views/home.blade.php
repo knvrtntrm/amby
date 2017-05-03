@@ -7,8 +7,8 @@
 		<h1 class="title">Amby dienstencheques</h1>
 		<br>
 		<h4 class="subtitle">Al meer dan 10 jaar jouw specialist voor huishoudhulp met dienstencheques.</h4>
-	<hr>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, excepturi, temporibus. Minima tempore incidunt sunt animi, dolor, eligendi facere deserunt doloribus minus, repellat enim quae atque eveniet reiciendis vero blanditiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quaerat ratione inventore excepturi cupiditate asperiores ad assumenda id sed quas illum similique nemo nulla accusamus repellat, eos cum explicabo incidunt.</p>
+	<br>
+		<p class="is-70-wide-and-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, excepturi, temporibus. Minima tempore incidunt sunt animi, dolor, eligendi facere deserunt doloribus minus, repellat enim quae atque eveniet reiciendis vero blanditiis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus quaerat ratione inventore excepturi cupiditate asperiores ad assumenda id sed quas illum similique nemo nulla accusamus repellat, eos cum explicabo incidunt.</p>
 		<br>
 		<a href="{{ route('diensten') }}" class="button button-red">Huishoudhulp aanvragen</a>
 		<a href="{{ route('werken') }}" class="button button-red">Werken als huishoudhulp</a>
