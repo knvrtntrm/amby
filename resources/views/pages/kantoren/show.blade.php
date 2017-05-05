@@ -107,7 +107,7 @@
 				</form>
 			</div>
 			<div class="column is-half">
-				<h4 class="subtitle">a new title</h4>
+				<h4 class="subtitle">{{ $kantoor->name }}</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum delectus, iste laudantium a aliquam optio maxime sapiente animi natus molestias minima eius commodi ullam, alias quam dolore itaque temporibus sed.</p><br>
 				<div class="office-image-wrapper">
 					<img src="/images/offices/waregem.jpg" alt="" class="office-image">

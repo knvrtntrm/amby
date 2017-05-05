@@ -22,8 +22,10 @@
             });
             Event.$on('calculateRoute', (foreignAddress) => {
                 this.map = new google.maps.Map(document.querySelector('#map'), {
-                    zoom: 14
+                    zoom: 14,
+                    scrollwheel:  false
                 });
+
                 this.showRoute(foreignAddress);
             });
             Event.$on('openInMaps', (foreignAddress) => {
@@ -41,7 +43,8 @@
                     if(status === google.maps.GeocoderStatus.OK){
                         this.map = new google.maps.Map(document.querySelector('#map'), {
                             zoom: 14,
-                            center: results[0].geometry.location
+                            center: results[0].geometry.location,
+                            scrollwheel:  false
                         });
                     }
                     this.markerA = new google.maps.Marker({

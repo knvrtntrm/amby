@@ -2,13 +2,12 @@
 
 namespace App\Mail;
 
+use App\Kantoor;
 use Illuminate\Bus\Queueable;
+use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
-
-use App\Kantoor;
-use Illuminate\Http\Request;
 
 class ApplicationContact extends Mailable
 {
@@ -21,10 +20,16 @@ class ApplicationContact extends Mailable
      *
      * @return void
      */
-    public function __construct(Kantoor $kantoor, Request $request)
+    public function __construct(Request $request)
     {
         $this->data = $request->all();
-        $this->kantoor = $kantoor;
+        $this->kantoor = Kantoor::whereId($request['kantoor'])->first();
+        $this->to = ["recipients" =>
+                        [
+                            "name" => $this->kantoor->name, 
+                            "address" => $this->kantoor->email
+                         ]
+                    ];
     }
 
     /**

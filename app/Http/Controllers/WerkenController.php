@@ -22,9 +22,7 @@ class WerkenController extends Controller
             'motivatie' => 'required'
             ], $this->messages());
 
-    	$kantoor = Kantoor::whereId(request('kantoor'))->first();
-
-        \Mail::to($kantoor->email)->send(new ApplicationContact($kantoor, request()));
+        \Mail::send(new ApplicationContact(request()));
 
         return back()->with('success', 'Bedankt, uw formulier werd succesvol verzonden!');
     }

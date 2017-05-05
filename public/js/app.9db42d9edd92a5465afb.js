@@ -1636,8 +1636,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         });
         Event.$on('calculateRoute', function (foreignAddress) {
             _this.map = new google.maps.Map(document.querySelector('#map'), {
-                zoom: 14
+                zoom: 14,
+                scrollwheel: false
             });
+
             _this.showRoute(foreignAddress);
         });
         Event.$on('openInMaps', function (foreignAddress) {
@@ -1658,7 +1660,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
                 if (status === google.maps.GeocoderStatus.OK) {
                     _this2.map = new google.maps.Map(document.querySelector('#map'), {
                         zoom: 14,
-                        center: results[0].geometry.location
+                        center: results[0].geometry.location,
+                        scrollwheel: false
                     });
                 }
                 _this2.markerA = new google.maps.Marker({
