@@ -20,7 +20,7 @@
 		<div class="columns">
 			<div class="column">
 				<div class="fact">
-					<span class="upper-fact">10</span>
+					<span class="upper-fact">{{ \App\Kantoor::count() }}</span>
 					<p>Kantoren in Vlaanderen</p>
 				</div>
 			</div>

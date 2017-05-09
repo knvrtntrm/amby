@@ -17,8 +17,8 @@ class WerkenController extends Controller
     	$this->validate(request(), [
             'name' => 'required|max:255',
             'email' => 'required|email|max:255',
-            'telefoon' => 'required|max:255',
-            'kantoor' => 'required',
+            'telefoon' => 'required|numeric',
+            'kantoor' => 'required|exists:kantoren',
             'motivatie' => 'required'
             ], $this->messages());
 
@@ -39,6 +39,7 @@ class WerkenController extends Controller
         'email.required'  => 'Gelieve uw email adres in te vullen',
         'email.email' => 'Gelieve een correct email adres in te vullen',
         'telefoon.required' => 'Gelieve uw telefoonnummer in te vullen',
+        'telefoon.numeric' => 'Een telefoonnummer kan enkel cijfers bevatten',
         'kantoor.required' => 'Gelieve een kantoor te selecteren',
         'bericht.required' => 'Gelieve een bericht na te laten'
         ];

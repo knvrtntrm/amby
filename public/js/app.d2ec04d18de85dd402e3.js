@@ -41631,7 +41631,8 @@ Vue.component('offices-map', __webpack_require__("./resources/assets/js/componen
 var app = window.app = new Vue({
     el: '#app',
     data: {
-        foreignAddress: null
+        foreignAddress: null,
+        mobileMenuIsActive: false
     },
     methods: {
         init: function init() {
@@ -41642,6 +41643,9 @@ var app = window.app = new Vue({
         },
         openMaps: function openMaps() {
             Event.$emit('openInMaps', this.foreignAddress);
+        },
+        toggleMobileMenu: function toggleMobileMenu() {
+            this.mobileMenuIsActive = !this.mobileMenuIsActive;
         }
     }
 });

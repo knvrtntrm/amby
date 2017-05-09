@@ -23,7 +23,8 @@ Vue.component('offices-map', require('./components/OfficesMap.vue'));
 var app = window.app = new Vue({
     el: '#app',
     data:{
-    	foreignAddress: null
+    	foreignAddress: null,
+        mobileMenuIsActive: false
     },
     methods: {
     	init: function(){
@@ -34,6 +35,9 @@ var app = window.app = new Vue({
     	},
         openMaps(){
             Event.$emit('openInMaps', this.foreignAddress);
+        },
+        toggleMobileMenu(){
+            this.mobileMenuIsActive = !this.mobileMenuIsActive;
         }
     }
 });
