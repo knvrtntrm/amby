@@ -2,6 +2,7 @@
   <div class="container">
     <div class="nav-left">
       <a class="nav-item">
+        <img class="logo-mobile" src="/images/logo.png" alt="Amby logo">
         <img class="logo" src="/images/logo.svg" alt="Amby logo">
       </a>
     </div>

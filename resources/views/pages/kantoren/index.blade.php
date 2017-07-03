@@ -2,10 +2,12 @@
 
 @section('content')
 
-<offices-map kantoren="{{ $kantoren }}"></offices-map>
-
 <section class="section">
 	<div class="container">
+
+	<h2 class="subtitle has-text-centered">Wilt u klant worden of heeft u interesse in een job als huishoudhulp? <br>
+		Spring dan gerust binnen of neem contact op met één van onze Amby kantoren</h2>
+		<br>
 		<h1 class="title has-text-centered">Kantoren</h1>
 		<div class="office-items">
 		@foreach($kantoren as $kantoor)
@@ -23,5 +25,7 @@
 		<div class="clearfix"></div>
 	</div>
 </section>
+
+<offices-map kantoren="{{ $kantoren }}"></offices-map>
 
 @endsection

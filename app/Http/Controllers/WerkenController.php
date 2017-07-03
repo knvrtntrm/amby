@@ -35,13 +35,13 @@ class WerkenController extends Controller
     public function messages()
     {
         return [
-        'name.required' => 'Gelieve uw naam in te vullen',
-        'email.required'  => 'Gelieve uw email adres in te vullen',
-        'email.email' => 'Gelieve een correct email adres in te vullen',
-        'telefoon.required' => 'Gelieve uw telefoonnummer in te vullen',
-        'telefoon.numeric' => 'Een telefoonnummer kan enkel cijfers bevatten',
-        'kantoor.required' => 'Gelieve een kantoor te selecteren',
-        'bericht.required' => 'Gelieve een bericht na te laten'
+            'name.required' => 'Gelieve uw naam in te vullen',
+            'email.required'  => 'Gelieve uw email adres in te vullen',
+            'email.email' => 'Gelieve een correct email adres in te vullen',
+            'telefoon.required' => 'Gelieve uw telefoonnummer in te vullen',
+            'telefoon.numeric' => 'Een telefoonnummer kan enkel cijfers bevatten',
+            'kantoor.required' => 'Gelieve een kantoor te selecteren',
+            'bericht.required' => 'Gelieve een bericht na te laten'
         ];
     }
 }

@@ -14,15 +14,14 @@
 
 </head>
 <body>
-	
 
 	<div id="app">
 		@include('partials.menu')
-		@yield('content')
+			<div class="site-content">
+				@yield('content')
+			</div>
 		@include('partials.footer')
 	</div>
-
-
 
 	<script src="{{ mix('/js/app.js') }}"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvZSeqrAmWQzwfMXZwE7kz7UMFVeXKJls&callback=app.init"

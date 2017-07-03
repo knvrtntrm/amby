@@ -8,8 +8,37 @@
 		<div class="columns">
 		<div class="column mb-50 has-border-right">
 			<h1 class="subtitle has-text-centered is-uppercase">Wat houdt werken bij amby in?</h1>
-				<p class="is-70-wide-and-centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa minus nisi amet iste, accusantium pariatur ipsa recusandae consequuntur ut. Amet sint, at cum incidunt delectus quas. Commodi facere, qui culpa.
-				<br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa aliquam tenetur quasi accusamus neque odit officia voluptate modi amet corporis iure consectetur, soluta optio recusandae provident, labore error laudantium porro!</p>
+				<p class="is-70-wide-and-centered">Meer dan 10 jaar ervaring in de dienstenchequesector zorgt ervoor dat Amby een betrouwbare en stabiele organisatie is.
+				U komt gegarandeerd terecht in een hecht en gemotiveerd team.</p>
+				<br>
+				<h1 class="subtitle has-text-centered is-uppercase">Solliciteer als huishoudhulp</h1>
+				<p class="is-70-wide-and-centered">Je houdt van een kraaknette omgeving, orde en netheid zijn heel belangrijk voor jou.
+				Daarnaast ben je betrouwbaar en behulpzaam. Je bent sociaal en komt graag bij andere mensen op de vloer.
+				Je hebt het nodige organisatietalent om verschiolende huishoudelijke taken aan te pakken en tot een goed einde te brengen?
+				Dan ben jij de geknipte persoon.
+				Naast een persoonlijke begeleiding kan je bij Amby ook rekenen op:
+				</p><br>
+				<ul class="is-70-wide-and-centered">
+					<li>- Compititief loon volgens anciënniteit</li>
+					<li>- Vakantiegeld</li>
+					<li>- Eindejaarspremie</li>
+					<li>- Contract van onbepaalde duur</li>
+					<li>- Onkostenvergoeding</li>
+					<li>- Uren zelf kiezen</li>
+					<li>- Werken dicht bij je thuis</li>
+				</ul>
+				<br>
+				<p class="is-70-wide-and-centered">
+					Helemaal overtuigd? <br>
+					Vul snel het fomulier hiernaast in en stuur het door naar het Amby kantoor bij u in de buurt.
+					We contacteren jou zo snel mogelijk om een afspraak te maken op ons kantoor zodat we kunnen kennis maken.
+				</p>
+				<br>
+				<h1 class="subtitle has-text-centered is-uppercase">Solliciteer als kantoormedewerker</h1>
+				<p class="is-70-wide-and-centered">Ben je een administratieve duizendpot met commercieel talent? Solliciteer dan vandaag nog, misschien ben jij de collega naar wie we op zoek zijn.
+				Vul het formulier in en stuur het door naar ons hoofdkantoor.
+				Van zodra we een gepaste vacature vrij hebben, nemen we contact met je op.
+				</p>
 			</div>
 			<div class="column">
 			@if(session()->has('success'))

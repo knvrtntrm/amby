@@ -29,6 +29,7 @@ $factory->define(App\Kantoor::class, function (Faker\Generator $faker) {
         'slug' => str_slug($faker->name),
         'email' => $faker->unique()->safeEmail,
         'address' => $faker->address,
+        'province' => $faker->state,
         'postalcode' => "8500",
         'city' => $faker->city,
         'phone' => $faker->phonenumber,
