@@ -6,8 +6,8 @@
 	<div class="container has-text-centered">
 		<h1 class="title mb-50">Diensten</h1>
 		<h4 class="subtitle">Met welke taken helpen we je graag?</h4>
-		<p>Ons team staat dagelijks voor u klaar om u te helpen bij de uitvoering van enkele van u w huishoudelijke taken.
-		In overleg met de mensen van het Amby-kantoor en u w huishoudhulp wodt er een tijdstip gekozen met een begin-en einduur (min. 3u) die u beiden goed uitkomt.
+		<p>Ons team staat dagelijks voor u klaar om u te helpen bij de uitvoering van enkele van uw huishoudelijke taken.
+		In overleg met de mensen van het Amby-kantoor en uw huishoudhulp wordt er een tijdstip gekozen met een begin-en einduur (min. 3u) die u beiden goed uitkomt.
 		Bij ziekte of verlof van uw huishoudhulp wordt u steeds op de hoogte gebracht en proberen we vervanging te voorzien indien gewenst.</p>
 	</div>
 </section>

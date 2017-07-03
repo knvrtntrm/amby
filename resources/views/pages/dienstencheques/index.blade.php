@@ -56,10 +56,10 @@
 			<h1 class="subtitle is-uppercase has-text-centered">Kiezen voor elektronische dienstencheques is kiezen voor gemak en veiligheid.</h1>
 			<br>
 				<ul>
-					<li class="has-text-centered"><span>Veiliger in gebruik</span> <br>verlies of diefstal is niet meer mogelijk</li>
+					<li class="has-text-centered"><span>Veiliger in gebruik</span> <br>verlies of diefstal is niet meer mogenlijk</li>
 					<li class="has-text-centered"><span>Onmiddellijk beschikbaar</span><br>na bestelling ontvangt u de dienstencheques eerstdaags in uw elektronische portefeuille</li>
 					<li class="has-text-centered"><span>Veel betrouwbaarder</span> <br>kans op vervallen cheques is veel kleiner aangezien de oudste cheques altijd eerst worden gebruikt</li>
-					<li class="has-text-centered"><span>Duidelijker</span> <br>garantie dat de dienstencheque voldoet aan alle voorwaarden omdat er niets kan misgaan vij het invullen/verwerken van de cheque</li>
+					<li class="has-text-centered"><span>Duidelijker</span> <br>garantie dat de dienstencheque voldoet aan alle voorwaarden omdat er niets kan misgaan bij het invullen/verwerken van de cheque</li>
 				</ul>
 			</p>
 			<br>
@@ -78,7 +78,7 @@
 					<div class="column">
 						<p class="has-text-centered is-70-wide-and-centered">Eerst en vooral dient u zich te registreren via Sodexo. U kan dit via de site doen of u kunt uiteraard ook langskomen in één van onze Amby-kantoren.
 						Na uw registratie ontvangt u een bevestiging met uw persoonlijke gebruikersnummer.
-						Het is heel belangrijk om dit gebruikersnummer goed bij te houden want dit nummer gebruikt u nadien om dienstencheques te vestellen.</p>
+						Het is heel belangrijk om dit gebruikersnummer goed bij te houden want dit nummer gebruikt u nadien om dienstencheques te bestellen.</p>
 						</div>
 					<div class="column">
 						<p class="has-text-centered is-70-wide-and-centered">Er moeten steeds minimum 10 dienstencheques aangekocht worden bij Sodexo.
