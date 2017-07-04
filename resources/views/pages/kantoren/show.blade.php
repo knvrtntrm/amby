@@ -24,13 +24,14 @@
 		</p> <br>
 		<p>Op vrijdag open van <br>
 		<span class="is-red">
-				08:30 - 12:30
+				08:30 - 12:00
 			</span> en van 
 			<span class="is-red">
 				13:30 - 17:30
 			</span>
 		</p>
 		<br>
+		<p>Collectieve sluitingsdag: 13/11/2017</p>
 		{{-- <a href="" class="button button-red">Route berekenen</a> --}}
 		<hr>
 		<p>Bereken de route naar dit kantoor</p> <br>

@@ -19,7 +19,6 @@
 						<li class="is-flex"><strong class="is-red pr-5">|</strong> Na uw registratie ontvangt u een bevestiging per post of mail met een persoonlijk gebruiksnummer. Dit nummer gebruikt u nadien om dienstencheques te bestellen.</li>
 						<li class="is-flex"><strong class="is-red pr-5">|</strong> Papieren dienstencheques ontvangt u per post na 3 dagen. Elektronische dienstencheques ontvangt u onmiddellijk na bestelling.</li>
 					</ul> --}}
-
 				</div>
 				<div class="column mb-50">
 					<h1 class="subtitle is-uppercase">Wat kost een dienstencheque? </h1>
