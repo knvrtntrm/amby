@@ -99,7 +99,8 @@ li{
 }
 
 .is-15-pct{
-  width: 35%;
+  width: auto;
+	height:150px;
   margin-bottom: 20px;
 }
 
@@ -110,6 +111,25 @@ li{
 	>*{
 		color:white;
 	}
+}
+
+.is-250-high{
+	height:250px;
+	margin-bottom:20px;
+}
+
+.has-green-bg{
+	background-color:rgb(69, 179, 174);
+	padding:20px;
+	color:white;
+	>*{
+		color:white;
+	}
+}
+
+.is-logo-sized{
+	margin-top:20px;
+	width:100px;
 }
 
 @media(max-width:768px){

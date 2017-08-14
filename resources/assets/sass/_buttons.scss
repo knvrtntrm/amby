@@ -11,3 +11,18 @@
 	color:white;
 	border:1px solid $red;
 }
+
+.button-green{
+	background-color:rgb(69, 179, 174);
+	color:white;
+	border:1px solid white;
+	font-weight: 600;
+	box-shadow: none;
+}
+
+.button-green:hover{
+	background-color:white;
+	color:rgb(69, 179, 174);
+	border:1px solid white;
+}
+

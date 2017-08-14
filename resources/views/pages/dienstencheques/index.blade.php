@@ -26,6 +26,7 @@
                     </ul> --}}
                 </div>
                 <div class="column mb-50">
+                    <img class="is-15-pct" src="images/euro.png" alt="euro">
                     <h1 class="subtitle is-uppercase">Wat kost een dienstencheque? </h1>
                     <p class="is-70-wide-and-centered">De prijs van een dienstencheque is 9 EURO per cheque voor de
                         eerste 400 aangekochte cheques per kalenderjaar.
@@ -66,15 +67,16 @@
         </div>
     </section>
 
-    <section class="section has-orange-bg">
+    <section class="section has-green-bg">
         <div class="container">
             <h1 class="subtitle is-uppercase has-text-centered is-fat is-white-text">Kiezen voor elektronische dienstencheques is kiezen
                 voor gemak en veiligheid.</h1>
             <br>
-            <div class="columns">
+            <div class="columns pb-20">
                 <div class="column is-4">
                     <img src="/images/elec.png" alt="elektronisch">
                 </div>
+                <div class="column is-1"></div>
                 <div class="column">
                     <ul>
                         <li><span>Veiliger in gebruik</span> <br>verlies of diefstal is niet meer mogenlijk</li>
@@ -89,9 +91,9 @@
                         </li>
                     </ul>
                     <br>
-                    <p class="has-text-centered is-70-wide-and-centered">
-                        <a href="http://www.dienstencheques-vlaanderen.be/en-waarom-niet-overschakelen-naar-de-elektronische-dienstencheques">Hoe
-                            overschakelen van papieren naar elektronische cheques?</a>
+                    <p>
+                        <a href="http://www.dienstencheques-vlaanderen.be/en-waarom-niet-overschakelen-naar-de-elektronische-dienstencheques" class="button button-green">Hoe
+                            overschakelen?</a>
                     </p>
                 </div>
             </div>
@@ -128,15 +130,18 @@
             <div class="columns has-text-centered">
                 <div class="column has-border-right">
                     <p class="upper-fact is-medium-text">Dienstencheques in het Vlaams gewest</p>
-                    <a href="#" class="button button-red mt-20">Sodexo Vlaanderen</a>
+                    <a href="#" class="button button-red mt-20">Sodexo Vlaanderen</a><br>
+                    <img class="is-logo-sized" src="images/vlaanderen.png" alt="vlaanderen">
                 </div>
                 <div class="column has-border-right">
                     <p class="upper-fact is-medium-text">Dienstencheques in het Brussels gewest</p>
-                    <a href="#" class="button button-red mt-20">Sodexo Brussel</a>
+                    <a href="#" class="button button-red mt-20">Sodexo Brussel</a><br>
+                    <img class="is-logo-sized" src="images/brussel.jpg" alt="brussel">
                 </div>
                 <div class="column">
                     <p class="upper-fact is-medium-text">Dienstencheques in het Waals gewest</p>
-                    <a href="#" class="button button-red mt-20">Sodexo Wallonië</a>
+                    <a href="#" class="button button-red mt-20">Sodexo Wallonië</a><br>
+                    <img class="is-logo-sized" src="images/wallonie.jpg" alt="wallonie">
                 </div>
             </div>
         </div>

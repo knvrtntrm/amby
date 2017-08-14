@@ -1,24 +1,31 @@
 @extends('layouts.app')
 
 @section('content')
-
+	<h1 class="title has-text-centered mb-50 mt-50">Werken bij amby</h1>
+	<section class="has-gray-background">
+		<div class="container">
+		<h1 class="subtitle has-text-centered is-uppercase">Wat houdt werken bij amby in?</h1>
+		<p class="is-70-wide-and-centered">Als familiale organisatie staan we dicht bij onze mensen. Een persoonlijke aanpak t.a.v. klanten, huishoudhulpen en interne medewerkers is voor ons cruciaal.
+			Met meer dan 10 jaar ervaring in de dienstencheque-sector kunnen wij inspelen op uw wensen en noden. Wie bij Amby komt werken, komt terecht in een hecht en gemotiveerd team.</p>
+		<br></div></section>
 <section class="section">
+
 	<div class="container">
-		<h1 class="title has-text-centered mb-50">Werken bij amby</h1>
+
+
+
+
+		<section class="section">
 		<div class="columns">
 		<div class="column mb-50 has-border-right">
-			<h1 class="subtitle has-text-centered is-uppercase">Wat houdt werken bij amby in?</h1>
-				<p class="is-70-wide-and-centered">Meer dan 10 jaar ervaring in de dienstenchequesector zorgt ervoor dat Amby een betrouwbare en stabiele organisatie is.
-				U komt gegarandeerd terecht in een hecht en gemotiveerd team.</p>
-				<br>
-				<h1 class="subtitle has-text-centered is-uppercase">Solliciteer als huishoudhulp</h1>
+				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Solliciteer als huishoudhulp</h1>
 				<p class="is-70-wide-and-centered">Je houdt van een kraaknette omgeving, orde en netheid zijn heel belangrijk voor jou.
 				Daarnaast ben je betrouwbaar en behulpzaam. Je bent sociaal en komt graag bij andere mensen op de vloer.
 				Je hebt het nodige organisatietalent om verschillende huishoudelijke taken aan te pakken en tot een goed einde te brengen?
-				Dan ben jij de geknipte persoon.
+					<br>Dan ben jij de geknipte persoon.
 				Naast een persoonlijke begeleiding kan je bij Amby ook rekenen op:
 				</p><br>
-				<ul class="is-70-wide-and-centered">
+				<ul class="is-70-wide-and-centered has-green-bg">
 					<li>- Compititief loon volgens anciënniteit</li>
 					<li>- Vakantiegeld</li>
 					<li>- Eindejaarspremie</li>
@@ -28,19 +35,22 @@
 					<li>- Werken dicht bij je thuis</li>
 				</ul>
 				<br>
-				<p class="is-70-wide-and-centered">
-					Helemaal overtuigd? <br>
+				<p class="is-70-wide-and-centered mb-50">
+					Helemaal overtuigd? <br><br>
 					Vul snel het fomulier hiernaast in en stuur het door naar het Amby kantoor bij u in de buurt.
 					We contacteren jou zo snel mogelijk om een afspraak te maken op ons kantoor zodat we kunnen kennis maken.
 				</p>
 				<br>
-				<h1 class="subtitle has-text-centered is-uppercase">Solliciteer als kantoormedewerker</h1>
+				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Solliciteer als kantoormedewerker</h1>
 				<p class="is-70-wide-and-centered">Ben je een administratieve duizendpot met commercieel talent? Solliciteer dan vandaag nog, misschien ben jij de collega naar wie we op zoek zijn.
 				Vul het formulier in en stuur het door naar ons hoofdkantoor.
 				Van zodra we een gepaste vacature vrij hebben, nemen we contact met je op.
 				</p>
 			</div>
-			<div class="column">
+			<div class="column has-text-centered">
+
+				<img class="is-250-high" src="images/hhh.png" alt="hhh">
+				
 			@if(session()->has('success'))
 				<article class="message is-success">
 					<div class="message-body has-text-centered">
@@ -100,7 +110,7 @@
 			</div>
 
 		</div>
-
+		</section>
 	</div>
 </section>
 
