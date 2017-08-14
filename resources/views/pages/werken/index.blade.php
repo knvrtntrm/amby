@@ -14,7 +14,7 @@
 				<h1 class="subtitle has-text-centered is-uppercase">Solliciteer als huishoudhulp</h1>
 				<p class="is-70-wide-and-centered">Je houdt van een kraaknette omgeving, orde en netheid zijn heel belangrijk voor jou.
 				Daarnaast ben je betrouwbaar en behulpzaam. Je bent sociaal en komt graag bij andere mensen op de vloer.
-				Je hebt het nodige organisatietalent om verschiolende huishoudelijke taken aan te pakken en tot een goed einde te brengen?
+				Je hebt het nodige organisatietalent om verschillende huishoudelijke taken aan te pakken en tot een goed einde te brengen?
 				Dan ben jij de geknipte persoon.
 				Naast een persoonlijke begeleiding kan je bij Amby ook rekenen op:
 				</p><br>

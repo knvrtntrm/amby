@@ -14,11 +14,10 @@
 		<div class="office-item">
 
 			<span class="office-item-left">
-				<a class="office-item-title" href="{{ route('kantoren.kantoor', ['kantoor' => $kantoor->slug]) }}">{{ $kantoor->name }}</a> <p>| {{ $kantoor->province }}</p>
-			</span>
-			<span class="office-item-right">
+				<a class="office-item-title" href="{{ route('kantoren.kantoor', ['kantoor' => $kantoor->slug]) }}">{{ $kantoor->name }}</a> <p>| {{ $kantoor->province }}</p><br>
 				<a href="/kantoren/{{ $kantoor->slug }}" class="button button-red">Meer info</a>
 			</span>
+
 		</div>
 		@endforeach
 		</div>

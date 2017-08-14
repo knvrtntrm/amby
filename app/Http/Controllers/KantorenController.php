@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Kantoor;
-use Illuminate\Http\Request;
 use App\Mail\OfficeContact;
+use Illuminate\Http\Request;
 
 class KantorenController extends Controller
 {
@@ -32,8 +32,9 @@ class KantorenController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param Kantoor $kantoor
      * @return \Illuminate\Http\Response
+     * @internal param Request $request
      */
     public function store(Kantoor $kantoor)
     {
@@ -42,33 +43,33 @@ class KantorenController extends Controller
             'email' => 'required|email|max:255',
             'telefoon' => 'required|max:255',
             'bericht' => 'required'
-            ], $this->messages());
+        ], $this->messages());
 
         \Mail::to($kantoor->email)->send(new OfficeContact($kantoor, request()));
 
         return back()->with('success', 'Bedankt, uw formulier werd succesvol verzonden!');
     }
 
-/**
- * Get the error messages for the defined validation rules.
- *
- * @return array
- */
+    /**
+     * Get the error messages for the defined validation rules.
+     *
+     * @return array
+     */
     public function messages()
     {
         return [
-        'name.required' => 'Gelieve uw naam in te vullen',
-        'email.required'  => 'Gelieve uw email adres in te vullen',
-        'email.email' => 'Gelieve een correct email adres in te vullen',
-        'telefoon.required' => 'Gelieve uw telefoonnummer in te vullen',
-        'bericht.required' => 'Gelieve een bericht na te laten'
+            'name.required' => 'Gelieve uw naam in te vullen',
+            'email.required' => 'Gelieve uw email adres in te vullen',
+            'email.email' => 'Gelieve een correct email adres in te vullen',
+            'telefoon.required' => 'Gelieve uw telefoonnummer in te vullen',
+            'bericht.required' => 'Gelieve een bericht na te laten'
         ];
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Kantoor  $kantoor
+     * @param  \App\Kantoor $kantoor
      * @return \Illuminate\Http\Response
      */
     public function show(Kantoor $kantoor)
@@ -79,7 +80,7 @@ class KantorenController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Kantoor  $kantoor
+     * @param  \App\Kantoor $kantoor
      * @return \Illuminate\Http\Response
      */
     public function edit(Kantoor $kantoor)
@@ -90,8 +91,8 @@ class KantorenController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Kantoor  $kantoor
+     * @param  \Illuminate\Http\Request $request
+     * @param  \App\Kantoor $kantoor
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Kantoor $kantoor)
@@ -102,7 +103,7 @@ class KantorenController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Kantoor  $kantoor
+     * @param  \App\Kantoor $kantoor
      * @return \Illuminate\Http\Response
      */
     public function destroy(Kantoor $kantoor)

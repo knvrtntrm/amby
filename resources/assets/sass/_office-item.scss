@@ -1,11 +1,13 @@
 .office-items{
-	margin: 20px;
+	margin: 0 auto;
 }
 
 .office-item{
-	min-width: 50%;
+	border-right:1px solid #eee;
+	margin:10px;
+	min-width:240px;
 	display:flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: center;
 	padding:20px;
 	float:left;

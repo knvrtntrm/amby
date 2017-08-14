@@ -2,12 +2,11 @@
 
 namespace App\Mail;
 
+use App\Kantoor;
 use Illuminate\Bus\Queueable;
+use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Http\Request;
-use App\Kantoor;
-use Illuminate\Contracts\Queue\ShouldQueue;
 
 class OfficeContact extends Mailable
 {
@@ -19,7 +18,8 @@ class OfficeContact extends Mailable
     /**
      * Create a new message instance.
      *
-     * @return void
+     * @param Kantoor $kantoor
+     * @param Request $request
      */
     public function __construct(Kantoor $kantoor, Request $request)
     {

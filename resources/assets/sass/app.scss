@@ -24,7 +24,7 @@
 .banner{
 	background-image:url('/images/banner.png');
 	background-size:100%;
-	height:100px;
+	height:200px;
 	display:flex;
 	justify-content: center;
 	align-items:center;
@@ -88,6 +88,28 @@ li{
 
 .is-medium-text{
 	font-size:1.2em!important;
+}
+
+.is-white-text{
+	color:white!important;
+}
+
+.is-fat{
+	font-weight: bold;
+}
+
+.is-15-pct{
+  width: 35%;
+  margin-bottom: 20px;
+}
+
+.has-orange-bg{
+	background-color:$red;
+	padding:20px;
+	color:white;
+	>*{
+		color:white;
+	}
 }
 
 @media(max-width:768px){

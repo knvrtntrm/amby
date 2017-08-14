@@ -6,48 +6,72 @@
 </div>
 <section class="section">
 
-	<div class="container has-text-centered">
+	<div class="container">
 
-	<h4 class="subtitle">Onze persoonlijke sfeer zorgt voor een gemotiveerd team van huishoudhulpen en tevreden klanten</h4>
-	<br>
-		<p class="is-70-wide-and-centered">Een persoonlijk contact en persoonlijke begeleiding staan voorop! <br>
-		Vauit deze filosofie streeft Amby naar een perfecte match tussen klant en huishoudhulp.</p>
-		<br>
-	 <hr>
 		<section class="section">
 
-		<h2 class="subtitle">Wij bieden onze klanten een persoonlijke service aan:</h1>
+			<div class="columns">
 
-		<p>
-			Wij komen met plezier bij u thuis langs om alles te overlopen. Uiteraard bent u ook altijd welkom in één van onze kantoren bij u in de buurt.
-			Wij leggen u graag alles uit omtrent de dienstencheque-verlening en helpen u graag verder waar mogelijk.
-			Onze huishoudhulpen worden geselecteerd op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid.
-			Uw tevredenheid en feedback is voor ons belangrijk zodat we kunnen bijsturen indien nodig.
-			We proberen steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te sturen en kunnen voor vervanging zorgen bij ziekte of verlof van de huishoudhulp.
-		</p>
-		
+				<div class="column">
+					<img src="/images/hhh_2-01.png" alt="hhh">
+				</div>
+				<div class="column is-1"></div>
+				<div class="column is-7">
+					<p>
+					<h2 class="subtitle is-fat">Onze persoonlijke aanpak zorgt zowel voor een gemotiveerd team van huishoudhulpen als voor tevreden klanten</h2>
 
-<br>
-<a href="{{ route('kantoren') }}" class="button button-red">Klant worden</a>
+					Een persoonlijk contact en een begeleiding op maat staan voorop.<br>
+					Vauit deze filosofie streeft Amby naar een perfecte match tussen klant en huishoudhulp.
+					</p>
+					<br><br>
+
+					<p>
+					<h2 class="subtitle is-fat">Wij bieden onze klanten een persoonlijke service aan:</h2>
+
+						Wij komen met plezier bij u thuis langs om alles te overlopen. Uiteraard bent u ook altijd welkom in één van onze kantoren bij u in de buurt.
+						<br><br>
+						Wij kunnen u begeleiden in uw registratie als nieuwe dienstencheque-gebruiker, voor het bestellen van dienstencheques, enz.
+						We streven ernaar een kwalitatief antwoord te bieden op al uw vragen. <br><br>
+						Onze huishoudhulpen worden geselecteerd op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid.
+						Uw tevredenheid en feedback is voor ons belangrijk zodat we kunnen bijsturen indien nodig. <br><br>
+						We streven ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen en zorgen indien gewenst voor vervanging bij ziekte of verlof van de huishoudhulp.
+					</p>
+
+					<br>
+					<a href="{{ route('kantoren') }}" class="button button-red">Klant worden</a>
+				</div>
+			</div>
 
 </section>
-
-<section class="section">
-		<h2 class="subtitle">Onze huishoudhulpen kunnen rekenen op een persoonlijk aanspreekpunt:</h1>
-
-		<p>
-			Op kantoor staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw ragen.
-			Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er nog bijgeschoold in productkennis en schoomaaktechnieken.
-			De huishoudhulp kan rekenen op een 100% correcte administratie en loonverwerking.
-		</p>
-
-		<br>
-		
-		<a href="{{ route('werken') }}" class="button button-red">Werken als huishoudhulp</a>
-
-		</section>
 	</div>
 </section>
+<section class="section has-gray-background">
+	<div class="container p-20">
+		<div class="columns">
+			<div class="column is-8">
+				<h2 class="subtitle is-fat">Onze huishoudhulpen kunnen rekenen op een persoonlijk aanspreekpunt:</h2>
+
+				<p>
+					Op kantoor staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw ragen. <br><br>
+					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er nog bijgeschoold in productkennis en schoomaaktechnieken.
+					<br><br>
+					De huishoudhulp kan rekenen op een 100% correcte administratie en loonverwerking.
+				</p>
+				<br>
+				<a href="{{ route('werken') }}" class="button button-red">Werken als huishoudhulp</a>
+			</div>
+			<div class="column is-1"></div>
+			<div class="column">
+				<img src="/images/hhh_4.png" alt="">
+			</div>
+				
+		</div>
+		
+		
+	</div>
+		</section>
+
+
 
 {{-- <section class="section facts">
 	<div class="container">

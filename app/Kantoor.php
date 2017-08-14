@@ -9,15 +9,18 @@ class Kantoor extends Model
     protected $table = 'kantoren';
     protected $guarded = [];
 
-    public function getRouteKeyName(){
-    	return 'slug';
+    public function getRouteKeyName()
+    {
+        return 'slug';
     }
 
-    public function fullAddress(){
-    	return $this->address . ', ' . $this->postalcode . ' ' . $this->city;
+    public function fullAddress()
+    {
+        return $this->address . ', ' . $this->postalcode . ' ' . $this->city;
     }
 
-    public function formattedPhone(){
-    	return "0" . chunk_split($this->phone, 2, ' ');
+    public function formattedPhone()
+    {
+        return "0" . chunk_split($this->phone, 2, ' ');
     }
 }
