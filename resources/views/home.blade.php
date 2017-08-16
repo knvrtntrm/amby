@@ -21,7 +21,7 @@
 					<h2 class="subtitle is-fat">Onze persoonlijke aanpak zorgt zowel voor een gemotiveerd team van huishoudhulpen als voor tevreden klanten</h2>
 
 					Een persoonlijk contact en een begeleiding op maat staan voorop.<br>
-					Vauit deze filosofie streeft Amby naar een perfecte match tussen klant en huishoudhulp.
+					Vanuit deze filosofie streeft Amby naar een perfecte match tussen klant en huishoudhulp.
 					</p>
 					<br><br>
 
@@ -52,8 +52,8 @@
 				<h2 class="subtitle is-fat">Onze huishoudhulpen kunnen rekenen op een persoonlijk aanspreekpunt:</h2>
 
 				<p>
-					Op kantoor staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw ragen. <br><br>
-					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er nog bijgeschoold in productkennis en schoomaaktechnieken.
+					Op kantoor staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw vragen. <br><br>
+					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er nog bijgeschoold in productkennis en schoonmaaktechnieken.
 					<br><br>
 					De huishoudhulp kan rekenen op een 100% correcte administratie en loonverwerking.
 				</p>
@@ -98,9 +98,9 @@
 	</div>
 </section> --}}
 
-<section class="section">
+{{--<section class="section has-orange-bg">
 	<div class="container"></div>
-</section>
+</section>--}}
 
 
 @endsection

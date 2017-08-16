@@ -35,7 +35,7 @@
                         Bovendien geniet je van een belastingsvermindering per dienstencheque waardoor dit nog extra
                         voordelig is.
                         (Deze vermindering is afhankelijk van het gewest waarin u gedomicilieerd bent)
-                        Jaarlijks ontvangt u van Sodeo een fiscaal attest dat u bij uw belastingsaangifte kan voegen om
+                        Jaarlijks ontvangt u van Sodexo een fiscaal attest dat u bij uw belastingsaangifte kan voegen om
                         van dit voordeel te genieten.</p>
                     {{-- <ul class="list">
                         <li class="is-flex"><strong class="is-red pr-5">|</strong> Een gesubsidieerd betaalmiddel.</li>
@@ -116,7 +116,7 @@
                 <div class="column">
                     <p class="has-text-centered is-70-wide-and-centered">Er moeten steeds minimum tien dienstencheques
                         aangekocht worden bij Sodexo.
-                        De dienstencheques kunnen worden aagekocht d.m.v. een overschrijving op het bankrekeningnummer
+                        De dienstencheques kunnen worden aangekocht d.m.v. een overschrijving op het bankrekeningnummer
                         van Sodexo van het gewest waar u op gedomicilieerd bent. De gestructureerde mededeling is uw
                         gebruikersnummer van Sodexo.</p>
                 </div>
@@ -130,17 +130,17 @@
             <div class="columns has-text-centered">
                 <div class="column has-border-right">
                     <p class="upper-fact is-medium-text">Dienstencheques in het Vlaams gewest</p>
-                    <a href="#" class="button button-red mt-20">Sodexo Vlaanderen</a><br>
+                    <a href="https://extranet.dienstencheques-vlaanderen.be/Public/Users/Registration" class="button button-red mt-20">Sodexo Vlaanderen</a><br>
                     <img class="is-logo-sized" src="images/vlaanderen.png" alt="vlaanderen">
                 </div>
                 <div class="column has-border-right">
                     <p class="upper-fact is-medium-text">Dienstencheques in het Brussels gewest</p>
-                    <a href="#" class="button button-red mt-20">Sodexo Brussel</a><br>
+                    <a href="https://extranet.titresservices.brussels/Public/Users/Registration" class="button button-red mt-20">Sodexo Brussel</a><br>
                     <img class="is-logo-sized" src="images/brussel.jpg" alt="brussel">
                 </div>
                 <div class="column">
                     <p class="upper-fact is-medium-text">Dienstencheques in het Waals gewest</p>
-                    <a href="#" class="button button-red mt-20">Sodexo Wallonië</a><br>
+                    <a href="https://extranet.wallonie-titres-services.be/Public/Users/Registration?lang=fr" class="button button-red mt-20">Sodexo Wallonië</a><br>
                     <img class="is-logo-sized" src="images/wallonie.jpg" alt="wallonie">
                 </div>
             </div>

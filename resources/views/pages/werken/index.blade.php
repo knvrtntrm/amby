@@ -42,7 +42,7 @@
 				</p>
 				<br>
 				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Solliciteer als kantoormedewerker</h1>
-				<p class="is-70-wide-and-centered">Ben je een administratieve duizendpot met commercieel talent? Solliciteer dan vandaag nog, misschien ben jij de collega naar wie we op zoek zijn.
+				<p class="is-70-wide-and-centered">Ben je een administratieve duizendpoot met commercieel talent? Solliciteer dan vandaag nog, misschien ben jij de collega naar wie we op zoek zijn.
 				Vul het formulier in en stuur het door naar ons hoofdkantoor.
 				Van zodra we een gepaste vacature vrij hebben, nemen we contact met je op.
 				</p>
