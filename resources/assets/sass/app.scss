@@ -86,6 +86,10 @@ li{
 	border-right: 1px solid #eee;
 }
 
+.has-border-bottom{
+	border-bottom: 1px solid #eee;
+}
+
 .is-medium-text{
 	font-size:1.2em!important;
 }
@@ -114,7 +118,7 @@ li{
 }
 
 .is-250-high{
-	height:250px;
+	max-height:250px;
 	margin-bottom:20px;
 }
 

@@ -15,7 +15,7 @@ class KantorenController extends Controller
      */
     public function index()
     {
-        $kantoren = Kantoor::all();
+        $kantoren = Kantoor::WhereNot('name', 'Amby Hoofdkantoor')->get();
         return view('pages.kantoren.index', compact('kantoren'));
     }
 

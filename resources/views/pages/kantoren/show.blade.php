@@ -24,7 +24,7 @@
 		</p> <br>
 		<p>Op vrijdag open van <br>
 		<span class="is-red">
-				08:30 - 12:00
+				08:30 - 12:30
 			</span> en van 
 			<span class="is-red">
 				13:30 - 17:30
