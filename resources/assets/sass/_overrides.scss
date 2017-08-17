@@ -58,8 +58,13 @@ body,html, #app{
 }
 
 .nav-item img{
-	max-height: 3.75rem;
-    width: 40%;
+	max-height: 13.75rem;
+	width: 15%;
+	position: absolute;
+	background-color: white;
+	padding: 10px;
+	border: 1px solid #eee;
+	top: 20px;
 }
 
 @media(max-width:400px){
