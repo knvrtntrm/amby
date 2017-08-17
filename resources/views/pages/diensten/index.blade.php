@@ -28,7 +28,7 @@
 				<h2 class="subtitle is-uppercase is-fat">Wassen en strijken</h2>
 				<p class="mb-50">Geen zin om zelf te strijken of uw wasmand naar een strijkdienst te sleuren? De huishoudhulp komt bij u langs en zorgt ervoor dat u uw kleding enkel nog in uw kast moet leggen.</p>
 				<h2 class="subtitle is-uppercase is-fat">Boodschappen doen</h2>
-				<p class="mb-50">Vindt u boodschappen doen zonde van uw kostbare tijd? Geen probleem, onze mensen rijden zelf naar de supermarkt en bezorgen zaken bij u thuis zoals genoteerd op uw boodschappenlijstje.</p>
+				<p class="mb-50">Vindt u boodschappen doen zonde van uw kostbare tijd? Geen probleem, onze mensen rijden zelf naar de supermarkt en bezorgen alle boodschappen bij u thuis zoals genoteerd op uw lijstje.</p>
 			</div>
 		</div>
 	</div>

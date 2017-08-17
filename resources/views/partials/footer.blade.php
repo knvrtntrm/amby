@@ -6,7 +6,7 @@
       </p>
       <p>
         <a class="icon" href="https://github.com/jgthms/bulma">
-          <i class="fa fa-facebook"></i>
+          <i class="fa fa-facebook-square menu-fb"></i>
         </a>
       </p>
     </div>

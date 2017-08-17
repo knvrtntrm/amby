@@ -53,7 +53,7 @@
 
 				<p>
 					Op kantoor staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw vragen. <br><br>
-					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er nog bijgeschoold in productkennis en schoonmaaktechnieken.
+					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er doorlopend bijgeschoold in productkennis en schoonmaaktechnieken.
 					<br><br>
 					De huishoudhulp kan rekenen op een 100% correcte administratie en loonverwerking.
 				</p>

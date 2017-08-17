@@ -19,14 +19,14 @@
 		<div class="columns">
 		<div class="column mb-50 has-border-right">
 				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Solliciteer als huishoudhulp</h1>
-				<p class="is-70-wide-and-centered">Je houdt van een kraaknette omgeving, orde en netheid zijn heel belangrijk voor jou.
-				Daarnaast ben je betrouwbaar en behulpzaam. Je bent sociaal en komt graag bij andere mensen op de vloer.
-				Je hebt het nodige organisatietalent om verschillende huishoudelijke taken aan te pakken en tot een goed einde te brengen?
-					<br>Dan ben jij de geknipte persoon.
+				<p class="is-70-wide-and-centered">Hou je van een kraaknette omgeving? Zijn orde en netheid heel belangrijk voor jou?
+				Ben je betrouwbaar en behulpzaam? Kom je graag bij andere mensen over de vloer en ben je sociaal vaardig?
+				Beschik je over het nodige organisatietalent om verschillende huishoudelijke taken aan te pakken en tot een goed einde te brengen?
+					<br>Dan ben jij de geknipte persoon!
 				Naast een persoonlijke begeleiding kan je bij Amby ook rekenen op:
 				</p><br>
 				<ul class="is-70-wide-and-centered has-green-bg">
-					<li>- Compititief loon volgens anciënniteit</li>
+					<li>- Competitief loon volgens anciënniteit</li>
 					<li>- Vakantiegeld</li>
 					<li>- Eindejaarspremie</li>
 					<li>- Contract van onbepaalde duur</li>

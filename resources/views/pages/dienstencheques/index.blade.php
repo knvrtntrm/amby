@@ -11,7 +11,7 @@
                     <img class="is-15-pct" src="images/dienstencheques01.png" alt="ds">
                     <h1 class="subtitle is-uppercase">Wat is een dienstencheque?</h1>
                     <p class="is-70-wide-and-centered">Een dienstencheque is een betaalmiddel waarvoor de drie gewesten
-                        (Vlaanderen, Brussel en Wallonië) een finaniële bijdrage leveren.
+                        (Vlaanderen, Brussel en Wallonië) een financiële bijdrage leveren.
                         Iedere meerderjarige persoon die zijn hoofdverblijfplaats heeft in één van deze gewesten, kan
                         dankzij de dienstencheques tegen een gunstige prijs beroep doen op een huishoudhulp via een
                         erkend bureau.
@@ -34,7 +34,7 @@
                         cheque.
                         Bovendien geniet je van een belastingsvermindering per dienstencheque waardoor dit nog extra
                         voordelig is.
-                        (Deze vermindering is afhankelijk van het gewest waarin u gedomicilieerd bent)
+                        Deze belastingsvermindering is afhankelijk van het gewest waarin u gedomicilieerd bent.
                         Jaarlijks ontvangt u van Sodexo een fiscaal attest dat u bij uw belastingsaangifte kan voegen om
                         van dit voordeel te genieten.</p>
                     {{-- <ul class="list">
@@ -59,8 +59,8 @@
                 papieren of elektronische dienstencheques.
                 Papieren dienstencheques krijgt u per post, moet u zelf invullen en ondertekenen bij afgifte.
                 Elektronische dienstencheques beheert u zelf via uw beveiligde pagina of via een app op uw smartphone.
-                (De prestatie die wordt ingebeld door uw huishoudhulp moet steeds door u worden gevestigd of betwist via
-                deze pagina of app)</p>
+                De prestatie die wordt ingebeld door uw huishoudhulp moet steeds door u worden bevestigd of betwist via
+                deze pagina of app.</p>
 
             <br><br>
 
@@ -79,14 +79,14 @@
                 <div class="column is-1"></div>
                 <div class="column">
                     <ul>
-                        <li><span>Veiliger in gebruik</span> <br>verlies of diefstal is niet meer mogenlijk</li>
-                        <li><span>Onmiddellijk beschikbaar</span><br>na bestelling ontvangt u de dienstencheques
+                        <li><span>Veiliger in gebruik</span> <br>Verlies of diefstal is niet meer mogelijk</li>
+                        <li><span>Onmiddellijk beschikbaar</span><br>Na bestelling ontvangt u de dienstencheques
                             eerstdaags in uw elektronische portefeuille
                         </li>
-                        <li><span>Veel betrouwbaarder</span> <br>kans op vervallen cheques is veel kleiner aangezien
+                        <li><span>Veel betrouwbaarder</span> <br>Kans op vervallen cheques is veel kleiner aangezien
                             de oudste cheques altijd eerst worden gebruikt
                         </li>
-                        <li><span>Duidelijker</span> <br>garantie dat de dienstencheque voldoet aan alle voorwaarden
+                        <li><span>Duidelijker</span> <br>Garantie dat de dienstencheque voldoet aan alle voorwaarden
                             omdat er niets kan misgaan bij het invullen/verwerken van de cheque
                         </li>
                     </ul>
@@ -114,7 +114,7 @@
                         nadien om dienstencheques te bestellen.</p>
                 </div>
                 <div class="column">
-                    <p class="has-text-centered is-70-wide-and-centered">Er moeten steeds minimum tien dienstencheques
+                    <p class="has-text-centered is-70-wide-and-centered">Er moeten steeds minimum 10 dienstencheques
                         aangekocht worden bij Sodexo.
                         De dienstencheques kunnen worden aangekocht d.m.v. een overschrijving op het bankrekeningnummer
                         van Sodexo van het gewest waar u op gedomicilieerd bent. De gestructureerde mededeling is uw
