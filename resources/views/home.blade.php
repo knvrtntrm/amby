@@ -13,7 +13,7 @@
 			<div class="columns">
 
 				<div class="column">
-					<img src="/images/hhh_2-01.png" alt="hhh">
+					<img src="/images/hhh_new.png" alt="hhh">
 				</div>
 				<div class="column is-1"></div>
 				<div class="column is-7">
@@ -62,7 +62,7 @@
 			</div>
 			<div class="column is-1"></div>
 			<div class="column">
-				<img src="/images/hhh_4.png" alt="">
+				<img src="/images/hhh_new2.png" alt="">
 			</div>
 				
 		</div>
