@@ -25,6 +25,16 @@ class OfficeContact extends Mailable
     {
         $this->data = $request->all();
         $this->kantoor = $kantoor;
+        $this->to = ["recipients" =>
+                        [
+                            "name" => $this->kantoor->name, 
+                            "address" => $this->kantoor->email
+                         ],
+                         [
+                            "name" => "Simon Heggermont",
+                            "address" => "simon.heggermont@amby.be"
+                         ]
+                    ];
     }
 
     /**

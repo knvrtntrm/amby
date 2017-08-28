@@ -59,7 +59,7 @@
 				</article>
 				@endif
 				<h1 class="subtitle is-uppercase has-text-centered">Spontaan solliciteren</h1>
-				<form action="{{ route('apply') }}" class="office-form" method="post">
+				<form action="{{ route('apply') }}" class="office-form" method="post" enctype="multipart/form-data">
 					{{ csrf_field() }}
 					<div class="field">
 						<p class="control">
@@ -96,6 +96,13 @@
 							<p class="help is-danger">{{ $errors->first('kantoor') }}</p>
 							</span>
 						</p>
+					</div>
+					<div class="field">
+						<p class="control">
+							<label class="label" for="cv">Cv uploaden</label>
+							<input type="file" name="cv" id="cv">
+						</p>
+						<p class="help is-danger">{{ $errors->first('cv') }}</p>
 					</div>
 					<div class="field">
 						<p class="control">

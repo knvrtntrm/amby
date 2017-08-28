@@ -4,6 +4,7 @@ namespace App\Mail;
 
 use App\Kantoor;
 use Illuminate\Bus\Queueable;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\Http\Request;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
@@ -28,8 +29,14 @@ class ApplicationContact extends Mailable
                         [
                             "name" => $this->kantoor->name, 
                             "address" => $this->kantoor->email
+                         ],
+                         [
+                            "name" => "Simon Heggermont",
+                            "address" => "simon.heggermont@amby.be"
                          ]
                     ];
+
+        $this->attachData(Storage::get('cv/' . request()->get('name') . '.' . request()->file('cv')->getClientOriginalName()), 'cv.' . request()->file('cv')->getClientOriginalName());
     }
 
     /**

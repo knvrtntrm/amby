@@ -25,9 +25,12 @@ class WerkenController extends Controller
             'name' => 'required|max:255',
             'email' => 'required|email|max:255',
             'telefoon' => 'required|numeric',
-            'kantoor' => 'required|exists:kantoren',
+            'kantoor' => 'required',
+            'cv' => 'mimes:pdf',
             'motivatie' => 'required'
         ], $this->messages());
+
+        request()->file('cv')->storeAs('cv', request()->get('name') . '.' . request()->file('cv')->getClientOriginalName() );
 
         \Mail::send(new ApplicationContact(request()));
 
@@ -48,7 +51,8 @@ class WerkenController extends Controller
             'telefoon.required' => 'Gelieve uw telefoonnummer in te vullen',
             'telefoon.numeric' => 'Een telefoonnummer kan enkel cijfers bevatten',
             'kantoor.required' => 'Gelieve een kantoor te selecteren',
-            'bericht.required' => 'Gelieve een bericht na te laten'
+            'bericht.required' => 'Gelieve een bericht na te laten',
+            'cv.mimes' => 'Gelieve een PDF bestand te kiezen'
         ];
     }
 }
