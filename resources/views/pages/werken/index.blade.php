@@ -49,7 +49,7 @@
 			</div>
 			<div class="column has-text-centered">
 
-				<img class="is-250-high" src="images/hhh.png" alt="hhh">
+				<img class="is-250-high" src="images/hhh_new.png" alt="hhh">
 				
 			@if(session()->has('success'))
 				<article class="message is-success">
