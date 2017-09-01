@@ -5,8 +5,8 @@
 	<section class="has-gray-background">
 		<div class="container">
 		<h1 class="subtitle has-text-centered is-uppercase">Wat houdt werken bij amby in?</h1>
-		<p class="is-70-wide-and-centered">Als familiale organisatie staan we dicht bij onze mensen. Een persoonlijke aanpak t.a.v. klanten, huishoudhulpen en interne medewerkers is voor ons cruciaal.
-			Met meer dan 10 jaar ervaring in de dienstencheque-sector kunnen wij inspelen op uw wensen en noden. Wie bij Amby komt werken, komt terecht in een hecht en gemotiveerd team.</p>
+		<p class="is-70-wide-and-centered">Als familiale organisatie staan we dicht bij onze mensen. Een persoonlijke aanpak tegenover klanten, huishoudhulpen en interne medewerkers is voor ons cruciaal.
+			Met meer dan 10 jaar ervaring in de dienstencheque-sector spelen wij in op uw wensen en noden. Wie bij Amby komt werken, komt terecht in een hecht en gemotiveerd team.</p>
 		<br></div></section>
 <section class="section">
 
@@ -37,13 +37,13 @@
 				<br>
 				<p class="is-70-wide-and-centered mb-50">
 					Helemaal overtuigd? <br><br>
-					Vul snel het fomulier hiernaast in en stuur het door naar het Amby kantoor bij u in de buurt.
+					Vul snel het formulier hiernaast in en kies het Amby kantoor bij u in de buurt.
 					We contacteren jou zo snel mogelijk om een afspraak te maken op ons kantoor zodat we kunnen kennis maken.
 				</p>
 				<br>
 				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Solliciteer als kantoormedewerker</h1>
 				<p class="is-70-wide-and-centered">Ben je een administratieve duizendpoot met commercieel talent? Solliciteer dan vandaag nog, misschien ben jij de collega naar wie we op zoek zijn.
-				Vul het formulier in en stuur het door naar ons hoofdkantoor.
+				Vul het formulier in en selecteer bij "Kies een kantoor" ons hoofdkantoor.
 				Van zodra we een gepaste vacature vrij hebben, nemen we contact met je op.
 				</p>
 			</div>

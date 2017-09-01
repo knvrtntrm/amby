@@ -57,9 +57,9 @@
 
             <p class="has-text-centered is-70-wide-and-centered">Tijdens uw registratie bij Sodexo kunt u kiezen tussen
                 papieren of elektronische dienstencheques.
-                Papieren dienstencheques krijgt u per post, moet u zelf invullen en ondertekenen bij afgifte.
-                Elektronische dienstencheques beheert u zelf via uw beveiligde pagina of via een app op uw smartphone.
-                De prestatie die wordt ingebeld door uw huishoudhulp moet steeds door u worden bevestigd of betwist via
+                Papieren dienstencheques krijgt u per post opgestuurd, moet u zelf invullen en ondertekenen bij afgifte aan uw poetshulp.
+                Elektronische dienstencheques beheert u zelf via uw beveiligde Sodexo pagina of via een app op uw smartphone.
+                De prestatie die wordt ingebeld door uw huishoudhulp wordt door u bevestigd of betwist via
                 deze pagina of app.</p>
 
             <br><br>
@@ -106,7 +106,7 @@
             <h1 class="title has-text-centered mb-50">Hoe kunt u dienstencheques bestellen?</h1>
             <div class="columns">
                 <div class="column">
-                    <p class="has-text-centered is-70-wide-and-centered">Eerst en vooral dient u zich te registreren via
+                    <p class="has-text-centered is-70-wide-and-centered">U dient zich eerst te registreren via
                         Sodexo. U kan dit via de site doen of u kunt uiteraard ook langskomen in één van onze
                         Amby-kantoren.
                         Na uw registratie ontvangt u een bevestiging met uw persoonlijke gebruikersnummer.
@@ -118,7 +118,7 @@
                         aangekocht worden bij Sodexo.
                         De dienstencheques kunnen worden aangekocht d.m.v. een overschrijving op het bankrekeningnummer
                         van Sodexo van het gewest waar u op gedomicilieerd bent. De gestructureerde mededeling is uw
-                        gebruikersnummer van Sodexo.</p>
+                        Sodexo-gebruikersnummer.</p>
                 </div>
             </div>
         </div>

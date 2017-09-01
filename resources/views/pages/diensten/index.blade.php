@@ -6,9 +6,8 @@
 	<div class="container has-text-centered">
 		<h1 class="title mb-50">Diensten</h1>
 		<h4 class="subtitle">Met welke taken helpen we je graag?</h4>
-		<p>Onze huishoudhulpen staan dagelijks voor u klaar om u te helpen bij de uitvoering van enkele van uw huishoudelijke taken.
-		In overleg met de collega's van het Amby-kantoor en uw huishoudhulp wordt er een tijdstip gekozen met een begin-en einduur (min. 3u) die u beiden goed uitkomt.
-		Bij ziekte of verlof van uw huishoudhulp wordt u steeds op de hoogte gebracht en proberen we vervanging te voorzien indien gewenst.</p>
+		<p>Onze huishoudhulpen staan dagelijks voor u klaar om u te helpen bij de uitvoering van uw huishoudelijke taken.
+		In overleg met de collega's van het Amby-kantoor en uw huishoudhulp wordt er een tijdstip gekozen met een begin-en einduur (min. 3u) die u beiden goed uitkomt.</p>
 	</div>
 </section>
 
@@ -19,7 +18,7 @@
 		<div class="columns mb-50">
 			<div class="column has-text-centered p-20">
 				<h2 class="subtitle is-uppercase is-fat">Schoonmaken</h2>
-				<p class="mb-50">Stofzuigen, dweilen, stof afnemen, ramen lappen, ... Wenst u meer vrije tijd? Doe dan nu beroep op één van onze huishoudhulpen.</p>
+				<p class="mb-50">Stofzuigen, dweilen, stof afnemen, ramen lappen, ... Wenst u meer vrije tijd? Doe dan nu beroep op één van onze huishoudhulpen. <br><br></p>
 				<h2 class="subtitle is-uppercase is-fat">Koken</h2>
 				<p class="mb-50">Bent u het beu om elke dag aan uw fornuis te staan? Onze huishoudhulpen schotelen u graag een lekkere maaltijd voor en laten uiteraard alles netjes achter.</p>
 			</div>

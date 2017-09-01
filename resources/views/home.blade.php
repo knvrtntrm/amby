@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="banner">
-	<h1 class="title">Amby dienstencheques</h1>
+	<h1 class="title">AMBY DIENSTENCHEQUES</h1>
 </div>
 <section class="section">
 
@@ -26,15 +26,15 @@
 					<br><br>
 
 					<p>
-					<h2 class="subtitle is-fat">Wij bieden onze klanten een persoonlijke service aan:</h2>
+					<h2 class="subtitle is-fat">Wij bieden onze klanten een persoonlijke service aan</h2>
 
-						Wij komen met plezier bij u thuis langs om alles te overlopen. Uiteraard bent u ook altijd welkom in één van onze kantoren bij u in de buurt.
+						Onze Office managers komen met plezier bij u thuis langs om alles te overlopen. Uiteraard bent u ook altijd welkom in één van onze kantoren bij u in de buurt.
 						<br><br>
-						Wij kunnen u begeleiden in uw registratie als nieuwe dienstencheque-gebruiker, voor het bestellen van dienstencheques, enz.
+						Amby begeleidt u in uw registratie als nieuwe dienstencheque-gebruiker, voor het bestellen van dienstencheques, enz.
 						We streven ernaar een kwalitatief antwoord te bieden op al uw vragen. <br><br>
 						Onze huishoudhulpen worden geselecteerd op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid.
-						Uw tevredenheid en feedback is voor ons belangrijk zodat we kunnen bijsturen indien nodig. <br><br>
-						We streven ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen en zorgen indien gewenst voor vervanging bij ziekte of verlof van de huishoudhulp.
+						Uw tevredenheid en feedback is belangrijk voor ons. <br><br>
+						Uiteraard streven we ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen. Bij ziekte of verlof van de huishoudhulp zorgen wij indien gewenst voor vervanging.
 					</p>
 
 					<br>
@@ -49,13 +49,13 @@
 	<div class="container p-20">
 		<div class="columns">
 			<div class="column is-8">
-				<h2 class="subtitle is-fat">Onze huishoudhulpen kunnen rekenen op een persoonlijk aanspreekpunt:</h2>
+				<h2 class="subtitle is-fat">Onze huishoudhulpen kunnen rekenen op een persoonlijk aanspreekpunt</h2>
 
 				<p>
-					Op kantoor staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw vragen. <br><br>
-					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden en daarnaast wordt er doorlopend bijgeschoold in productkennis en schoonmaaktechnieken.
+					Op <a href="{{ route('kantoren') }}">kantoor</a> staan er steeds gemotiveerde collega's voor u klaar die u kunnen helpen met al uw vragen. <br><br>
+					Er wordt een kwalitatieve opleiding voorzien op basis van specifieke noden. Daarnaast wordt er doorlopend bijgeschoold in productkennis en schoonmaaktechnieken.
 					<br><br>
-					De huishoudhulp kan rekenen op een 100% correcte administratie en loonverwerking.
+					Onze huishoudhulpen kunnen rekenen op een 100% correcte administratie en loonverwerking.
 				</p>
 				<br>
 				<a href="{{ route('werken') }}" class="button button-red">Werken als huishoudhulp</a>
