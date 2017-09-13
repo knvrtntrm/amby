@@ -7,6 +7,4 @@ Telefoon: {{ $data['telefoon'] }} <br> <br>
 Bericht: <br>
 <p>{{ $data['bericht'] }}</p>
 
-<br>
-
 @endcomponent
