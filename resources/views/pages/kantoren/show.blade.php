@@ -111,7 +111,7 @@
 				<h4 class="subtitle">{{ $kantoor->name }}</h4>
 				<br>
 				<div class="office-image-wrapper">
-					<img src="/images/offices/waregem.jpg" alt="" class="office-image">
+					<img src="/images/offices/{{ $kantoor->city }}.jpg" alt="" class="office-image">
 				</div>
 			</div>
 		</div>
