@@ -8,5 +8,5 @@ Bericht: <br>
 <p>{{ $data['bericht'] }}</p>
 
 <br>
-{{ config('app.name') }}
+
 @endcomponent

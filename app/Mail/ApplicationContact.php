@@ -46,6 +46,6 @@ class ApplicationContact extends Mailable
      */
     public function build()
     {
-        return $this->markdown('email.application');
+        return $this->from('noreply@amby.be')->subject('Spontane sollicitatie')->markdown('email.application');
     }
 }

@@ -44,6 +44,6 @@ class OfficeContact extends Mailable
      */
     public function build()
     {
-        return $this->markdown('email.office-contact');
+        return $this->from('noreply@amby.be')->subject('Contactformulier')->markdown('email.office-contact');
     }
 }
