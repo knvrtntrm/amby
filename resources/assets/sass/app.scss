@@ -166,3 +166,9 @@ li{
 	    top: 20px;
 	}
 }
+
+@media screen and (min-width: 1192px){
+	.nav-left, .nav-right {
+    	flex-basis: auto;
+	}
+}
