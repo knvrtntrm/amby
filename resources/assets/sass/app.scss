@@ -147,6 +147,16 @@ li{
 	width:100px;
 }
 
+@media(max-width:400px){
+	.banner{
+		background-size:300%!important;
+	}
+
+	.banner h1{
+		font-size:1.2rem!important;
+	}
+}
+
 @media(max-width:768px){
 	.is-70-wide-and-centered{
 		width:100%;
@@ -172,3 +182,5 @@ li{
     	flex-basis: auto;
 	}
 }
+
+
