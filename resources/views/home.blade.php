@@ -28,13 +28,11 @@
 					<p>
 					<h2 class="subtitle is-fat">Wij bieden onze klanten een persoonlijke service aan</h2>
 
-						Onze Office managers komen met plezier bij u thuis langs om alles te overlopen. Uiteraard bent u ook altijd welkom in één van onze kantoren bij u in de buurt.
+						Onze Office managers komen met plezier bij u thuis langs om alles met u te overlopen en uw vragen te beantwoorden. Komt u liever zelf eens naar het kantoor? Onze deur staat uiteraard altijd voor u open!
 						<br><br>
-						Amby begeleidt u in uw registratie als nieuwe dienstencheque-gebruiker, voor het bestellen van dienstencheques, enz.
-						We streven ernaar een kwalitatief antwoord te bieden op al uw vragen. <br><br>
-						Onze huishoudhulpen worden geselecteerd op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid.
-						Uw tevredenheid en feedback is belangrijk voor ons. <br><br>
-						Uiteraard streven we ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen. Bij ziekte of verlof van de huishoudhulp zorgen wij indien gewenst voor vervanging.
+						Is dit uw eerste werking met dienstencheques? Amby begeleidt u in uw registratie als nieuwe dienstencheque-gebruiker, bij de aanmaak van uw persoonlijke Sodexo-webruimte, voor het bestellen van dienstencheques, enz. We streven ernaar een kwalitatief antwoord te bieden op al uw vragen. <br><br>
+						Ons doel is het vinden van een huishoudhulp waar u zich goed bij voelt. Daarom selecteren we onze huishoudhulpen op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid. Bij de eerste kennismaking overlopen jullie samen het takenpakket en stemmen jullie elkaars verwachtingen op elkaar af. Zo kan u met een goed gevoel aan de samenwerking beginnen.<br><br>
+						Amby streeft ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen. Is uw vertrouwde huishoudhulp afwezig? Wij bieden u een vervanging aan indien dit u wenst. Zo bent u altijd zeker van de nodige hulp.
 					</p>
 
 					<br>
