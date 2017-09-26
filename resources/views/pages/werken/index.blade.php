@@ -41,11 +41,16 @@
 					We contacteren jou zo snel mogelijk om een afspraak te maken op ons kantoor zodat we kunnen kennis maken.
 				</p>
 				<br>
-				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Solliciteer als kantoormedewerker</h1>
+				<h1 class="subtitle is-70-wide-and-centered is-uppercase is-fat">Word jij onze nieuwe Amby collega?</h1>
 				<p class="is-70-wide-and-centered">Ben je een administratieve duizendpoot met commercieel talent? Solliciteer dan vandaag nog, misschien ben jij de collega naar wie we op zoek zijn.
 				Vul het formulier in en selecteer bij "Kies een kantoor" ons hoofdkantoor.
 				Van zodra we een gepaste vacature vrij hebben, nemen we contact met je op.
-				</p>
+				</p> <br><br>
+				<div class="is-70-wide-and-centered has-orange-bg">
+				<h1 class="subtitle is-fat">VACATURES IN DE KIJKER</h1>
+				<hr>
+				<p>- Uitzendconsulent(e) Amby Knokke</p>
+				</div>
 			</div>
 			<div class="column has-text-centered">
 
@@ -58,7 +63,7 @@
 					</div>
 				</article>
 				@endif
-				<h1 class="subtitle is-uppercase has-text-centered">Spontaan solliciteren</h1>
+				<p class="is-70-wide-and-centered">Amby heeft continu openstaande vacatures. Hoor je graag waar en voor hoeveel uren? Vul dan hieronder uw gegevens in en kies een kantoor. Wij nemen spoedig contact met u op en gaan op zoek naar een ideale work-life balance voor u bij de perfecte klant.</p><br><br>
 				<form action="{{ route('apply') }}" class="office-form" method="post" enctype="multipart/form-data">
 					{{ csrf_field() }}
 					<div class="field">
