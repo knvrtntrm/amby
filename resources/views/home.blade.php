@@ -32,7 +32,7 @@
 						<br><br>
 						Is dit uw eerste werking met dienstencheques? Amby begeleidt u in uw registratie als nieuwe dienstencheque-gebruiker, bij de aanmaak van uw persoonlijke Sodexo-webruimte, voor het bestellen van dienstencheques, enz. We streven ernaar een kwalitatief antwoord te bieden op al uw vragen. <br><br>
 						Ons doel is het vinden van een huishoudhulp waar u zich goed bij voelt. Daarom selecteren we onze huishoudhulpen op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid. Bij de eerste kennismaking overlopen jullie samen het takenpakket en stemmen jullie elkaars verwachtingen op elkaar af. Zo kan u met een goed gevoel aan de samenwerking beginnen.<br><br>
-						Amby streeft ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen. Is uw vertrouwde huishoudhulp afwezig? Wij bieden u een vervanging aan indien dit u wenst. Zo bent u altijd zeker van de nodige hulp.
+						Amby streeft ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen. Is uw vertrouwde huishoudhulp afwezig? Wij bieden u een vervanging aan indien u dit wenst. Zo bent u altijd zeker van de nodige hulp.
 					</p>
 
 					<br>
