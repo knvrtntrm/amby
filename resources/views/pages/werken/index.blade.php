@@ -99,7 +99,7 @@
 					</div>
 					<div class="field">
 						<p class="control">
-							<label class="label" for="cv">Cv uploaden</label>
+							<label class="label" for="cv">Cv uploaden ( PDF )</label>
 							<input type="file" name="cv" id="cv">
 						</p>
 						<p class="help is-danger">{{ $errors->first('cv') }}</p>
