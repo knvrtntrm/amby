@@ -26,8 +26,7 @@ class WerkenController extends Controller
             'email' => 'required|email|max:255',
             'telefoon' => 'required|numeric',
             'kantoor' => 'required',
-            'cv' => 'mimes:pdf',
-            'motivatie' => 'required'
+            'cv' => 'mimes:pdf'
         ], $this->messages());
 
         request()->file('cv')->storeAs('cv', request()->get('name') . '.' . request()->file('cv')->getClientOriginalName() );
