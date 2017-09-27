@@ -6,7 +6,7 @@
 		<div class="container">
 		<h1 class="subtitle has-text-centered is-uppercase">Wat houdt werken bij Amby in?</h1>
 		<p class="is-70-wide-and-centered">Als familiale organisatie staan we dicht bij onze mensen. Een persoonlijke aanpak tegenover klanten, huishoudhulpen en interne medewerkers is voor ons cruciaal.
-			Met meer dan 10 jaar ervaring in de dienstencheque-sector spelen wij in op uw wensen en noden. Wie bij Amby komt werken, komt terecht in een hecht en gemotiveerd team.</p>
+			Met meer dan 10 jaar ervaring in de dienstencheque-sector spelen wij in op uw wensen en noden. Wie bij Amby komt werken, komt terecht in een hecht en gemotiveerd team. </p>
 		<br></div></section>
 <section class="section">
 
