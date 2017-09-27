@@ -25,7 +25,6 @@
     </script>
 
 	<script src="{{ mix('/js/app.js') }}"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvZSeqrAmWQzwfMXZwE7kz7UMFVeXKJls&callback=app.init"
-    async defer></script>
+	@yield('js')
 </body>
 </html>
