@@ -33,7 +33,7 @@
                         De overige 100 dienstencheques die u nog kan aankopen per kalenderjaar bedragen 10 EURO per
                         cheque.
                         Bovendien geniet je van een belastingsvermindering per dienstencheque waardoor dit nog extra
-                        voordelig is.
+                        voordelig is. 
                         Deze belastingsvermindering is afhankelijk van het gewest waarin u gedomicilieerd bent.
                         Jaarlijks ontvangt u van Sodexo een fiscaal attest dat u bij uw belastingsaangifte kan voegen om
                         van dit voordeel te genieten.</p>
