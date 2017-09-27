@@ -26,13 +26,13 @@
 					<br><br>
 
 					<p>
-					<h2 class="subtitle is-fat">Wij bieden onze klanten een persoonlijke service aan</h2>
+					<h2 class="subtitle is-fat">Wij bieden een kwalitatieve service op maat van de klant aan</h2>
 
-						Onze Office managers komen met plezier bij u thuis langs om alles met u te overlopen en uw vragen te beantwoorden. Komt u liever zelf eens naar het kantoor? Onze deur staat uiteraard altijd voor u open!
+						Onze Office managers komen met plezier bij u thuis langs om alle huishoudelijke taken te overlopen en om alle belangrijke zaken te bespreken. Komt u liever zelf eens naar het kantoor? Onze deur staat uiteraard altijd voor iedereen open. Wees welkom in onze Amby kantoren!
 						<br><br>
-						Is dit uw eerste werking met dienstencheques? Amby begeleidt u in uw registratie als nieuwe dienstencheque-gebruiker, bij de aanmaak van uw persoonlijke Sodexo-webruimte, voor het bestellen van dienstencheques, enz. We streven ernaar een kwalitatief antwoord te bieden op al uw vragen. <br><br>
-						Ons doel is het vinden van een huishoudhulp waar u zich goed bij voelt. Daarom selecteren we onze huishoudhulpen op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid. Bij de eerste kennismaking overlopen jullie samen het takenpakket en stemmen jullie elkaars verwachtingen op elkaar af. Zo kan u met een goed gevoel aan de samenwerking beginnen.<br><br>
-						Amby streeft ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip bij u langs te laten komen. Is uw vertrouwde huishoudhulp afwezig? Wij bieden u een vervanging aan indien u dit wenst. Zo bent u altijd zeker van de nodige hulp.
+						Is dit uw eerste werking met dienstencheques? Amby begeleidt u bij de registratie als nieuwe dienstencheque-gebruiker, bij de aanmaak van een persoonlijke Sodexo-webruimte, bij het bestellen van dienstencheques, enz. We streven ernaar een kwalitatief antwoord te bieden op alle vragen. <br><br>
+						Ons doel is het vinden van een huishoudhulp waar u zich goed bij voelt. Daarom selecteren we onze huishoudhulpen op basis van referenties, motivatie, flexibiliteit en betrouwbaarheid. Bij de eerste kennismaking overlopen jullie samen het takenpakket en stemmen jullie elkaars verwachtingen op elkaar af. Zo kan iedereen met een goed gevoel aan de samenwerking beginnen.<br><br>
+						Amby streeft ernaar steeds dezelfde huishoudhulp op hetzelfde tijdstip thuis bij de klant langs te laten komen. Is uw vertrouwde huishoudhulp afwezig? Wij bieden een vervanging aan indien gewenst. Zo kan u steeds rekenen op de nodige huishoudelijke hulp!
 					</p>
 
 					<br>
