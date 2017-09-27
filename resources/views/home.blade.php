@@ -18,7 +18,7 @@
 				<div class="column is-1"></div>
 				<div class="column is-7">
 					<p>
-					<h2 class="subtitle is-fat">Onze persoonlijke aanpak zorgt zowel voor een gemotiveerd team van huishoudhulpen als voor tevreden klanten</h2> 
+					<h2 class="subtitle is-fat">Onze persoonlijke aanpak zorgt zowel voor een gemotiveerd team van huishoudhulpen als voor tevreden klanten</h2>   
 
 					Een persoonlijk contact en een begeleiding op maat staan voorop.<br>
 					Vanuit deze filosofie streeft Amby naar een perfecte match tussen klant en huishoudhulp.
