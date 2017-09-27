@@ -31,7 +31,7 @@
                 Kantoren
             </a>
             <a href="{{ route('werken') }}" class="nav-item">
-                Werken bij amby
+                Werken bij Amby
             </a>
 
             <a class="nav-item" href="https://www.facebook.com/AmbyDienstencheques" target="_blank">
