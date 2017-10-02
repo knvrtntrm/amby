@@ -29,8 +29,8 @@
 
 				_.each(this.offices, (value, key) => {
 					let address = value.address + ", " + value.postalcode + " " + value.city;
-					console.log(address);
 					geocoder.geocode({ address: address }, (results, status) => {
+
 						if(status === google.maps.GeocoderStatus.OK){
 
 							var contentString = '<div id="content">'+
@@ -51,6 +51,10 @@
 							marker.addListener('click', function() {
 								infowindow.open(this.map, marker);
 							});
+
+							
+						}else{
+							console.log(status);
 						}
 
 					});

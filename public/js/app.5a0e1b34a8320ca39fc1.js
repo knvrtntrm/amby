@@ -1770,8 +1770,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 			_.each(this.offices, function (value, key) {
 				var address = value.address + ", " + value.postalcode + " " + value.city;
-				console.log(address);
 				geocoder.geocode({ address: address }, function (results, status) {
+
 					if (status === google.maps.GeocoderStatus.OK) {
 
 						var contentString = '<div id="content">' + '<div id="siteNotice">' + '</div>' + '<h1 id="firstHeading" class="firstHeading"><a href="/kantoren/' + value.slug + '">' + value.name + '</a></h1><p>' + address + '</p></div>';
@@ -1789,6 +1789,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 						marker.addListener('click', function () {
 							infowindow.open(this.map, marker);
 						});
+					} else {
+						console.log(status);
 					}
 				});
 			});

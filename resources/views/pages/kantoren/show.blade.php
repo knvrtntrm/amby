@@ -121,6 +121,6 @@
 @endsection
 
 @section('js')
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvZSeqrAmWQzwfMXZwE7kz7UMFVeXKJls&callback=app.init"
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRllPMKNmLMWK8aNxtMDNOw6Tjxvte_qo&callback=app.init"
     async defer></script>
     @endsection
