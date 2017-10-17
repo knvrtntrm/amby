@@ -13,7 +13,7 @@
 
 <section class="section">
 	<div class="container has-text-centered">
-		<img class="is-250-high" style="padding-bottom:20px;" src="images/items.png" alt="items">
+		<img class="is-250-high" style="padding-bottom:20px;" src="images/items02.png" alt="items">
 		<br>
 		<div class="columns mb-50">
 			<div class="column has-text-centered p-20">

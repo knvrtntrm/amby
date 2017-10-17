@@ -11,10 +11,6 @@
 <section class="section">
 
 	<div class="container">
-
-
-
-
 		<section class="section">
 		<div class="columns">
 		<div class="column mb-50 has-border-right">
@@ -50,6 +46,9 @@
 				<h1 class="subtitle is-fat">VACATURES IN DE KIJKER</h1>
 				<hr>
 				<p>- Consulent(e) Amby Knokke</p>
+				<p>- Consulent(e) Hasselt</p>
+				<p>- Consulent(e) Maasmechelen</p>
+				<p>- Kantoorverantwoordelijke regio Limburg</p>
 				</div>
 			</div>
 			<div class="column has-text-centered">

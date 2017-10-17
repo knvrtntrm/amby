@@ -7,6 +7,7 @@
 	<title>Amby Dienstencheques</title>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel="stylesheet" href="{{ mix('/css/app.css') }}">
 </head>
 <body>

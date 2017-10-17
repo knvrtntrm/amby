@@ -85,7 +85,6 @@
                 });
 
                 geocoder.geocode({ address: foreignAddress }, (results, status) => {
-                    this.markerA 
 
                     this.markerB = new google.maps.Marker({
                         map: this.map,
