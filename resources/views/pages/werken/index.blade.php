@@ -46,7 +46,6 @@
 				<h1 class="subtitle is-fat">VACATURES IN DE KIJKER</h1>
 				<hr>
 				<p>- Consulent(e) Amby Deinze</p>
-				<p>- Consulent(e) Hasselt</p>
 				<p>- Consulent(e) Maasmechelen</p>
 				<p>- Kantoorverantwoordelijke regio Limburg</p>
 				</div>
