@@ -21,3 +21,7 @@ Route::post('/werken-bij-amby/solliciteren', 'WerkenController@store')->name('ap
 Route::post('/kantoren/{kantoor}', 'KantorenController@store')->name('contact');
 
 Route::post('/maps/{kantoor}/calculate', 'KantorenController@calculate');
+
+Route::get('/sitemap', function(){
+    return file_get_contents('../sitemap.xml');
+});
