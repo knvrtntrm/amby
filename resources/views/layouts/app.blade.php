@@ -9,6 +9,17 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:400,700">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<link rel="stylesheet" href="{{ mix('/css/app.css') }}">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4751919-5"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-4751919-5');
+	</script>
+
 </head>
 <body>
 
