@@ -31,7 +31,7 @@
 			</span>
 		</p>
 		<br>
-		<p>Collectieve sluitingsdag: 13/11/2017</p>
+		<p>Collectieve sluitingsdagen: <br> Maandag 23/07/2018 <br> Vrijdag 02/11/2018</p>
 		{{-- <a href="" class="button button-red">Route berekenen</a> --}}
 		<hr>
 		<p>Bereken de route naar dit kantoor</p> <br>
