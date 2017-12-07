@@ -42,12 +42,11 @@
 				Vul het formulier in en selecteer bij "Kies een kantoor" ons hoofdkantoor.
 				Van zodra we een gepaste vacature vrij hebben, nemen we contact met je op.
 				</p> <br><br>
-				{{--  <div class="is-70-wide-and-centered has-orange-bg">
+				<div class="is-70-wide-and-centered has-orange-bg">
 				<h1 class="subtitle is-fat">VACATURES IN DE KIJKER</h1>
 				<hr>
-				<p>- Consulent(e) Maasmechelen</p>
-				<p>- Kantoorverantwoordelijke regio Limburg</p>
-				</div>  --}}
+				<p>- Consulent(e) Torhout</p>
+				</div>
 			</div>
 			<div class="column has-text-centered">
 
